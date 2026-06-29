@@ -1,0 +1,4 @@
+- 2026-06-29: Automatically hide dock panels when leaving tab 0 and restore them when returning.
+- 2026-06-29: Styled unfrozen lyrics text cells as bold, reverting to normal weight once frozen.
+- 2026-06-29: Added Version History tab with timestamp, score, and author; supported double-click and toolbar version restoration.
+- 2026-06-29: Fixed Total Conversion dialog buttons to use Break(IDOK)/Break(IDCANCEL) and widened copy task button.
