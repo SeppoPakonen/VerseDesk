@@ -1,0 +1,5 @@
+- 2026-06-29: Fixed compilation of `LyricsEditor` by using `SetTimeCallback` in `MainWindow.cpp` and removing `.ReadOnly()` in `DockViews.cpp`.
+- 2026-06-29: Modified `main.cpp` using Win32 `WriteFile` to support CLI output redirection (`>`) for GUI executables.
+- 2026-06-29: Verified compilation using local `umk.exe` and `build.exe`.
+- 2026-06-29: Exported rules lists to `doc/rules_fi.md` and `doc/rules_en.md`.
+- 2026-06-29: Tested task dump and paste response loops successfully.

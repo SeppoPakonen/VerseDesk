@@ -1,0 +1,1 @@
+- 2026-06-29: Created the `LyricsEditor` U++ application with custom docking panels, rules grids, local undo history traces, and a revision diff comparison modal. Linked with MSVS26x64 compiler.

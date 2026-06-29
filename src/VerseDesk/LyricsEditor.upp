@@ -1,0 +1,26 @@
+description "LyricsEditor - Custom U++ Lyrics Editor\377";
+
+uses
+	Core,
+	CtrlLib,
+	Docking;
+
+file
+	main.cpp,
+	MainWindow.h,
+	MainWindow.cpp,
+	MenuSetup.cpp,
+	ToolBarSetup.cpp,
+	DockViews.h,
+	DockViews.cpp,
+	DiffDialog.h,
+	DiffDialog.cpp,
+	TotalConversionDialog.h,
+	TotalConversionDialog.cpp,
+	DebugTab.h,
+	DebugTab.cpp,
+	AppState.h;
+
+mainconfig
+	"" = "GUI";
+

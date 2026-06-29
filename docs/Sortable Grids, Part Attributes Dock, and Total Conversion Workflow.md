@@ -1,0 +1,5 @@
+- 2026-06-29: Enabled column header sorting with custom numeric/asterisk predicates across all grids.
+- 2026-06-29: Added dockable Part Attributes window supporting unique parts listing and inline editing of two attributes.
+- 2026-06-29: Fixed Diff Dialog close bugs by replacing Accept() with Break(IDOK).
+- 2026-06-29: Changed overall_magic to double to support float ratings in metadata and reviews.
+- 2026-06-29: Added Total Conversion workflow dialogs supporting user explanations, side-by-side alternative picking, and live iteration.

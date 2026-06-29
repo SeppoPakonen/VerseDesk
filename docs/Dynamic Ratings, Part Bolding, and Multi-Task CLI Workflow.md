@@ -1,0 +1,6 @@
+- 2026-06-29: Added dynamic rating category selector `DropList` in toolbar to switch the 4th column between Magic/Singability/Punchiness/Satisfaction/Rhyme Quality.
+- 2026-06-29: Enabled bolding for the first line of each section in the Part column.
+- 2026-06-29: Fixed selection highlight visibility in lyrics and rules grids by removing Paper/Ink selection overrides.
+- 2026-06-29: Expanded rules keywords matching in `GetMetaphoricalColor` to colorize all rules.
+- 2026-06-29: Created a new "Task" menu splitting songwriting workflows into Revise, Init, and Eval sub-tasks.
+- 2026-06-29: Updated CLI `--dump-task` and `--paste-result` arguments to support task-specific workflows.

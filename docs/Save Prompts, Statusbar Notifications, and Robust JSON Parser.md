@@ -1,0 +1,4 @@
+- 2026-06-29: Replaced task clipboard copy/paste PromptOK popups with 1-second statusbar messages.
+- 2026-06-29: Added modified_ state flag and titlebar asterisk (*) indicator to track project changes.
+- 2026-06-29: Overrode Close() to prompt with Yes/No/Cancel save dialog on exit if changes are unsaved.
+- 2026-06-29: Made AiReview JSON deserializer robust against both key/value and id/score structures, resolving AI parsing failures.

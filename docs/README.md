@@ -1,0 +1,99 @@
+Book — Index
+
+Purpose
+- A quick index mapping narrative chapters to their compact agent notes.
+- Keep this updated whenever a new chapter is added.
+
+Entries
+- 001 — Book Logging Kickoff
+  - Chapter: `001 - Book Logging Kickoff.md`
+  - Compact: `Book Logging Kickoff.md`
+- 002 — Voice & Roles
+  - Chapter: `002 - Voice & Roles.md`
+  - Compact: `Voice & Roles.md`
+- 003 — Backfill Index & Checker
+  - Chapter: `003 - Backfill Index & Checker.md`
+  - Compact: `Backfill Index & Checker.md`
+- 004 — README Sync Check
+  - Chapter: `004 - README Sync Check.md`
+  - Compact: `README Sync Check.md`
+- 005 — Auto README Generator
+  - Chapter: `005 - Auto README Generator.md`
+  - Compact: `Auto README Generator.md`
+- 006 — Session Close Protocol
+  - Chapter: `006 - Session Close Protocol.md`
+  - Compact: `Session Close Protocol.md`
+- 007 — Creating LyricsEditor
+  - Chapter: `007 - Creating LyricsEditor.md`
+  - Compact: `Creating LyricsEditor.md`
+- 008 — Refining and Automating LyricsEditor
+  - Chapter: `008 - Refining and Automating LyricsEditor.md`
+  - Compact: `Refining and Automating LyricsEditor.md`
+- 009 — Dynamic Ratings, Part Bolding, and Multi-Task CLI Workflow
+  - Chapter: `009 - Dynamic Ratings, Part Bolding, and Multi-Task CLI Workflow.md`
+  - Compact: `Dynamic Ratings, Part Bolding, and Multi-Task CLI Workflow.md`
+- 010 — Save Prompts, Statusbar Notifications, and Robust JSON Parser
+  - Chapter: `010 - Save Prompts, Statusbar Notifications, and Robust JSON Parser.md`
+  - Compact: `Save Prompts, Statusbar Notifications, and Robust JSON Parser.md`
+- 011 — Sortable Grids, Part Attributes Dock, and Total Conversion Workflow
+  - Chapter: `011 - Sortable Grids, Part Attributes Dock, and Total Conversion Workflow.md`
+  - Compact: `Sortable Grids, Part Attributes Dock, and Total Conversion Workflow.md`
+- 012 — Docks Toggling, Bold Formatting, Version History Tab, and Total Conversion Dialog Fixes
+  - Chapter: `012 - Docks Toggling, Bold Formatting, Version History Tab, and Total Conversion Dialog Fixes.md`
+  - Compact: `Docks Toggling, Bold Formatting, Version History Tab, and Total Conversion Dialog Fixes.md`
+- 013 — Keyboard Freeze Toggle, Lyrics Line Inserting and Deleting, and Rule Editing Capabilities
+  - Chapter: `013 - Keyboard Freeze Toggle, Lyrics Line Inserting and Deleting, and Rule Editing Capabilities.md`
+  - Compact: `Keyboard Freeze Toggle, Lyrics Line Inserting and Deleting, and Rule Editing Capabilities.md`
+- 014 — Keeping Original Lyrics in Total Conversion Compare Dialog
+  - Chapter: `014 - Keeping Original Lyrics in Total Conversion Compare Dialog.md`
+  - Compact: `Keeping Original Lyrics in Total Conversion Compare Dialog.md`
+- 015 — Accept All and Double Click Toggle in Total Conversion Compare
+  - Chapter: `015 - Accept All and Double Click Toggle in Total Conversion Compare.md`
+  - Compact: `Accept All and Double Click Toggle in Total Conversion Compare.md`
+- 016 — Removing Hardcoded Absolute Paths for Rules and CLI Logs
+  - Chapter: `016 - Removing Hardcoded Absolute Paths for Rules and CLI Logs.md`
+  - Compact: `Removing Hardcoded Absolute Paths for Rules and CLI Logs.md`
+- 017 — Fixing Real-time Editing Loop in Line Evaluator
+  - Chapter: `017 - Fixing Real-time Editing Loop in Line Evaluator.md`
+  - Compact: `Fixing Real-time Editing Loop in Line Evaluator.md`
+- 018 — Fixing Value Cast Exceptions for Null or Double Ratings
+  - Chapter: `018 - Fixing Value Cast Exceptions for Null or Double Ratings.md`
+  - Compact: `Fixing Value Cast Exceptions for Null or Double Ratings.md`
+- 019 — Preserving Grid Scroll Position on Rebuild
+  - Chapter: `019 - Preserving Grid Scroll Position on Rebuild.md`
+  - Compact: `Preserving Grid Scroll Position on Rebuild.md`
+- 020 — Switching AI Clipboard Serialization to TOON Format
+  - Chapter: `020 - Switching AI Clipboard Serialization to TOON Format.md`
+  - Compact: `Switching AI Clipboard Serialization to TOON Format.md`
+- 021 — Restoring Bootstrap and Source-Root Expansion
+  - Chapter: `021 - Restoring Bootstrap and Source-Root Expansion.md`
+  - Compact: `Restoring Bootstrap and Source-Root Expansion.md`
+- 022 — Fixing Total Conversion TOON Parser
+  - Chapter: `022 - Fixing Total Conversion TOON Parser.md`
+  - Compact: `Fixing Total Conversion TOON Parser.md`
+- 023 — Fixing Initialize Color Ratings TOON Counts
+  - Chapter: `023 - Fixing Initialize Color Ratings TOON Counts.md`
+  - Compact: `Fixing Initialize Color Ratings TOON Counts.md`
+- 024 — Fixing Rating Selector and Total Conversion Normalization
+  - Chapter: `024 - Fixing Rating Selector and Total Conversion Normalization.md`
+  - Compact: `Fixing Rating Selector and Total Conversion Normalization.md`
+- 025 — Adding Low Friction Rating
+  - Chapter: `025 - Adding Low Friction Rating.md`
+  - Compact: `Adding Low Friction Rating.md`
+- 026 — Fixing Metadata Dock Startup Crash
+  - Chapter: `026 - Fixing Metadata Dock Startup Crash.md`
+  - Compact: `Fixing Metadata Dock Startup Crash.md`
+- 027 — Adding Recent Project Files and Folder Memory
+  - Chapter: `027 - Adding Recent Project Files and Folder Memory.md`
+  - Compact: `Adding Recent Project Files and Folder Memory.md`
+- 028 — Requiring New Song Titles in Total Conversion
+  - Chapter: `028 - Requiring New Song Titles in Total Conversion.md`
+  - Compact: `Requiring New Song Titles in Total Conversion.md`
+
+Conventions
+- Chapters: `Book/%03d - <Title>.md`
+- Compact: `Book/<Title>.md`
+- Always create/update both together.
+
+Maintenance
+- Run `scripts/book_check.sh` to verify chapter↔compact pairing.
