@@ -1,0 +1,2 @@
+- 2026-06-30: Added safe GetValueInt inline helper to SongModel.h to handle Null and double_Null value conversions.
+- 2026-06-30: Applied GetValueInt to LineEvalDock, rules grid weight, and main window selector to prevent implicit cast crashes.
