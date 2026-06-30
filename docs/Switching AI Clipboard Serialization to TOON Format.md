@@ -1,0 +1,2 @@
+- 2026-06-30: Refactored prompt serialization to use U++'s native compact TOON format.
+- 2026-06-30: Implemented dual TOON and JSON parsers for clipboard pasting and CLI result imports.
