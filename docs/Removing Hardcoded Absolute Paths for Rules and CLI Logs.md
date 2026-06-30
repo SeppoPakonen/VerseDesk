@@ -1,0 +1,2 @@
+- 2026-06-30: Replaced hardcoded absolute paths with ConfigFile("cli.log") for portable CLI log output.
+- 2026-06-30: Implemented dynamic directory searching for default rules JSON files in both GUI and CLI modes.
