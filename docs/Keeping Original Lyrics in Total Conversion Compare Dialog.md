@@ -1,0 +1,2 @@
+- 2026-06-30: Added 'Keep Original (Reject All)' button to Total Conversion compare window to reset all selections to original lines.
+- 2026-06-30: Implemented right-click context menu in the comparison grid to select or reject alternatives line-by-line.
