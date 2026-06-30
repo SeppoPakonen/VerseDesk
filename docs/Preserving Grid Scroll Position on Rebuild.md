@@ -1,0 +1,1 @@
+- 2026-06-30: Preserved scrollbar positions in SyncGrid, SyncRulesGrid, and Compare dialogs using GetScroll and ScrollTo.
