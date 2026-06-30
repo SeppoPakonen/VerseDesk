@@ -1,0 +1,5 @@
+- 2026-06-30: Fixed F2 shortcut to toggle line freezing on the single cursor row when no multi-select range exists.
+- 2026-06-30: Supported original line index mapping in FreezeSelectedLines and OnGridCursor to prevent index errors when sorted.
+- 2026-06-30: Added context menu in lyrics grid to add lines above/below or delete selected line.
+- 2026-06-30: Made lyrics text inline-editable directly in the lyrics grid.
+- 2026-06-30: Added context menu in rules grid to add/delete rules, and made rule fields inline-editable.
