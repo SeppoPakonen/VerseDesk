@@ -1,0 +1,3 @@
+- 2026-06-30: Fixed the `Initialize Colors & Ratings` paste path by normalizing TOON array counts before loading `SongModel`.
+- 2026-06-30: Added the same normalization to `--test-song-toon` in `src/LyricsEditor/main.cpp` for automatic verification.
+- 2026-06-30: Verified the sample now loads as 34 lines after building `LyricsEditor` with `C:\Users\sblo\Dev\ai-upp\bin\build.exe -m MSVS26x64 --source-roots ".;../ai-upp" -j12 src/LyricsEditor/LyricsEditor.upp`.

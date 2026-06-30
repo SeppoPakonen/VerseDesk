@@ -1,0 +1,3 @@
+- 2026-06-30: Added a new `low_friction` line rating to LyricsEditor and exposed it in the toolbar and line evaluator.
+- 2026-06-30: Updated the AI task prompt and CLI merge path so the new field survives generated TOON and paste flows.
+- 2026-06-30: Rebuilt `LyricsEditor` after the change and confirmed the package still compiles cleanly.

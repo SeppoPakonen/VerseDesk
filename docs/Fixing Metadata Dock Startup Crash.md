@@ -1,0 +1,3 @@
+- 2026-06-30: Fixed the startup crash in `MetadataDock::MetadataDock()` by restoring its field loop to 14 entries.
+- 2026-06-30: Left the `LineEvalDock` loop at 15 entries because it now includes the new `Low Friction` rating control.
+- 2026-06-30: Rebuilt `LyricsEditor` after the fix and confirmed the package links cleanly again.

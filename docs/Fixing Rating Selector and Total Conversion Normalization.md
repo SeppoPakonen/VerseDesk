@@ -1,0 +1,3 @@
+- 2026-06-30: Extended the total-conversion paste path to run TOON count normalization before loading alternatives.
+- 2026-06-30: Fixed the lyric rating toolbar so the selected metric now drives the grid values instead of leaving the magic column stuck on screen.
+- 2026-06-30: Built `LyricsEditor` after the changes and kept the `--test-song-toon` / `--test-total-conversion-toon` CLI checks available for automation.

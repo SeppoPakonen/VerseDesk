@@ -1,0 +1,3 @@
+- 2026-06-30: Added a persistent `Recent Files` submenu for the 10 most recent project files.
+- 2026-06-30: Made Open/Save/Save As start from the current file's directory when available.
+- 2026-06-30: Rebuilt `LyricsEditor` after the menu/state changes and confirmed the build succeeds.

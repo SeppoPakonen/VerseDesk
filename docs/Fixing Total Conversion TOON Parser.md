@@ -1,0 +1,6 @@
+- 2026-06-30: Fixed `src/LyricsEditor/TotalConversionDialog.cpp` to accept the AI's tabular scalar TOON via non-strict parsing fallback.
+- 2026-06-30: Updated the total-conversion prompt schema in `src/LyricsEditor/MainWindow.cpp` and added `--test-total-conversion-toon` in `src/LyricsEditor/main.cpp`.
+- 2026-06-30: Fixed the compare dialog clipboard paste path so `Paste New Alternatives` also accepts fenced TOON, not just JSON.
+- 2026-06-30: Tightened clipboard heuristics so raw paste treats trimmed text as JSON only when it starts with `{`, otherwise TOON.
+- 2026-06-30: Restored `## Current Song TOON Data` in the compare dialog's `Copy Feedback to Clipboard` prompt.
+- 2026-06-30: Built `LyricsEditor` with `C:\Users\sblo\Dev\ai-upp\bin\build.exe -m MSVS26x64 --source-roots ".;../ai-upp" -j12 src/LyricsEditor/LyricsEditor.upp` and verified the sample parses as 2 alternatives with 34 lines each.
