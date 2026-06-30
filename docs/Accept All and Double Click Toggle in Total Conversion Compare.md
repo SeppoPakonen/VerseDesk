@@ -1,0 +1,2 @@
+- 2026-06-30: Added 'Accept All' button to Total Conversion compare dialog to select Alternative 1 for all lines.
+- 2026-06-30: Implemented double-click on a comparison grid row to toggle between accepted (Alternative 1) and rejected (Original).
