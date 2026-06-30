@@ -1,0 +1,1 @@
+- 2026-06-30: Refactored line evaluator grid updates to operate in-place, fixing the character overwrite loop during typing.
