@@ -1,0 +1,25 @@
+# Build artifacts
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# IDE
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
