@@ -1,0 +1,4 @@
+- 2026-07-01: Made total conversion require a new song title in the prompt and schema.
+- 2026-07-01: Added `title` to `ConversionAlternative` and carried the selected title into the applied song.
+- 2026-07-01: Switched fenced TOON/JSON extraction to the last closing fence for safer clipboard parsing.
+- 2026-07-01: Build was blocked because `bin/LyricsEditor.exe` was already running and locking the output file.

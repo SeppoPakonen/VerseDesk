@@ -37,14 +37,14 @@ Once the U++ build system is set up, build VerseDesk:
 
 ```powershell
 cd VerseDesk
-../ai-upp/bin/build.exe -m MSVS26x64 --source-roots ".;../ai-upp" -j12 src/VerseDesk/VerseDesk.upp
+../ai-upp/bin/build.exe -m MSVS26x64 --source-roots ".;../ai-upp" -j4 VerseDesk
 ```
 
 ### Build Options
 
 - `-m MSVS26x64`: Use Visual Studio 2026 (64-bit) compiler
 - `--source-roots ".;../ai-upp"`: Source directories for build system
-- `-j12`: Use 12 parallel jobs (adjust based on your CPU cores)
+- `-j4`: Number of parallel build jobs (adjust based on your CPU cores; use 2-4 for safe builds)
 
 ### Output
 
