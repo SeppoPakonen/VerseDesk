@@ -37,6 +37,10 @@ VerseDesk is a sophisticated tool designed for songwriters, producers, and AI re
 - **Version History**: Track and review editing sessions
 - **Dock Layout**: Flexible, resizable workspace organization
 
+<div align="center">
+  <img src="https://github.com/SeppoPakonen/VerseDesk/blob/main/docs/screenshot_v0_1.jpg?raw=true" alt="VerseDesk Interface" width="450">
+</div>
+
 ## Technical Stack
 
 - **Language**: C++17

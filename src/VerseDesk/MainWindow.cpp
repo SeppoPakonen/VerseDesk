@@ -866,12 +866,12 @@ void MainWindow::LoadDefaultRules(const String& lang)
 		path = AppendFileName(ConfigFile("rules"), filename);
 	}
 	if (!FileExists(path)) {
-		path = AppendFileName(GetFileDirectory(GetFileDirectory(GetExeFilePath())), "src/LyricsEditor/rules/" + filename);
+		path = AppendFileName(GetFileDirectory(GetFileDirectory(GetExeFilePath())), "src/VerseDesk/rules/" + filename);
 	}
 	if (!FileExists(path)) {
 		String dir = GetFileDirectory(GetExeFilePath());
 		for (int i = 0; i < 5; i++) {
-			String test = AppendFileName(dir, "src/LyricsEditor/rules/" + filename);
+			String test = AppendFileName(dir, "src/VerseDesk/rules/" + filename);
 			if (FileExists(test)) {
 				path = test;
 				break;
