@@ -49,19 +49,25 @@ VerseDesk is a sophisticated tool designed for songwriters, producers, and AI re
 ## Building
 
 ### Prerequisites
-1. **ai-upp fork** (Ultimate++ with extensions)
+1. **Visual Studio Community Edition 2026** (or later)
+   - Download from [visualstudio.microsoft.com](https://visualstudio.microsoft.com)
+   - Install with C++ development tools (MSVC compiler, Windows SDK)
+
+2. **ai-upp fork** (Ultimate++ with extensions)
    ```bash
    cd ..
    git clone https://github.com/OuluBSD/ai-upp.git
    ```
 
-2. **Bootstrap the build system** (first time only)
+3. **Bootstrap the build system** (first time only)
    ```powershell
    cd ../ai-upp
    powershell -ExecutionPolicy Bypass -File stdsrc/build/bootstrap.ps1
    ```
 
 ### Build Command
+   
+Once prerequisites are installed:
 ```powershell
 cd VerseDesk
 ../ai-upp/bin/build.exe -m MSVS26x64 --source-roots ".;../ai-upp" -j4 VerseDesk
