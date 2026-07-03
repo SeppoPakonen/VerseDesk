@@ -1,4 +1,4 @@
-![VerseDesk Logo](docs/logo.jpg)
+![VerseDesk Logo](https://github.com/SeppoPakonen/VerseDesk/blob/main/docs/logo.png?raw=true)
 
 # VerseDesk
 
