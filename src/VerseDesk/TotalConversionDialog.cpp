@@ -1,17 +1,5 @@
 ﻿#include "TotalConversionDialog.h"
 
-static int CountLeadingWhitespace(const String& s)
-{
-	int i = 0;
-	while (i < s.GetLength()) {
-		char c = s[i];
-		if (c != ' ' && c != '\t')
-			break;
-		i++;
-	}
-	return i;
-}
-
 static String DeindentToonBlock(const String& text)
 {
 	String trimmed = TrimBoth(text);

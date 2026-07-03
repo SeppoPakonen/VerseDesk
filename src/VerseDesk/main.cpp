@@ -41,7 +41,7 @@ void WriteToStdout(const String& text)
 #endif
 }
 
-static int CountLeadingWhitespace(const String& s)
+int CountLeadingWhitespace(const String& s)
 {
 	int i = 0;
 	while (i < s.GetLength()) {
@@ -53,7 +53,7 @@ static int CountLeadingWhitespace(const String& s)
 	return i;
 }
 
-static bool ParseArrayHeaderLine(const String& line, String& prefix, String& suffix)
+bool ParseArrayHeaderLine(const String& line, String& prefix, String& suffix)
 {
 	int indent = CountLeadingWhitespace(line);
 	String trimmed = line.Mid(indent);
@@ -92,7 +92,7 @@ static bool ParseArrayHeaderLine(const String& line, String& prefix, String& suf
 	return true;
 }
 
-static void NormalizeToonArrayCounts(Vector<String>& lines, int start, int base_indent)
+void NormalizeToonArrayCounts(Vector<String>& lines, int start, int base_indent)
 {
 	int i = start;
 	while (i < lines.GetCount()) {
@@ -161,7 +161,7 @@ static void NormalizeToonArrayCounts(Vector<String>& lines, int start, int base_
 	}
 }
 
-static String NormalizeToonArrayCounts(const String& text)
+String NormalizeToonArrayCounts(const String& text)
 {
 	Vector<String> lines = Split(TrimBoth(text), '\n');
 	NormalizeToonArrayCounts(lines, 0, 0);

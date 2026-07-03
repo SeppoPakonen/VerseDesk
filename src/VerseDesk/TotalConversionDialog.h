@@ -2,6 +2,7 @@
 #define _LyricsEditor_TotalConversionDialog_h_
 
 #include <CtrlLib/CtrlLib.h>
+#include "AppState.h"
 #include "SongModel.h"
 #include "RuleModel.h"
 
