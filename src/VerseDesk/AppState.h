@@ -1,5 +1,5 @@
-#ifndef _DockingTemplate2_AppState_h_
-#define _DockingTemplate2_AppState_h_
+#ifndef _VerseDesk_AppState_h_
+#define _VerseDesk_AppState_h_
 
 #include <CtrlLib/CtrlLib.h>
 

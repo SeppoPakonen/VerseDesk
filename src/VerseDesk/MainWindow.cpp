@@ -2,6 +2,10 @@
 #include "DiffDialog.h"
 #include "TotalConversionDialog.h"
 
+#define IMAGECLASS VerseDeskImg
+#define IMAGEFILE <VerseDesk/VerseDesk.iml>
+#include <Draw/iml_source.h>
+
 static int HexCharVal(char c) {
 	if (c >= '0' && c <= '9') return c - '0';
 	if (c >= 'a' && c <= 'f') return c - 'a' + 10;
@@ -167,7 +171,8 @@ void MainWindow::OnRatingSelectorChanged()
 
 MainWindow::MainWindow()
 {
-	Title("LyricsEditor").Sizeable().Zoomable();
+	Title("VerseDesk").Sizeable().Zoomable();
+	Icon(VerseDeskImg::icon_64());
 
 	AddFrame(menu_);
 	menu_.Set(THISBACK(MainMenu));

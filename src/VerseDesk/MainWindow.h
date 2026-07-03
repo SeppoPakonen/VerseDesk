@@ -1,8 +1,13 @@
-#ifndef _LyricsEditor_MainWindow_h_
-#define _LyricsEditor_MainWindow_h_
+#ifndef _VerseDesk_MainWindow_h_
+#define _VerseDesk_MainWindow_h_
 
 #include <CtrlLib/CtrlLib.h>
 #include <Docking/Docking.h>
+
+
+#define IMAGECLASS VerseDeskImg
+#define IMAGEFILE <VerseDesk/VerseDesk.iml>
+#include <Draw/iml_header.h>
 
 using namespace Upp;
 

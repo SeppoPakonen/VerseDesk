@@ -3,9 +3,11 @@ description "VerseDesk - Custom U++ Song Project Editor\377";
 uses
 	Core,
 	CtrlLib,
-	Docking;
+	Docking,
+	plugin/png;
 
 file
+	VerseDesk.iml,
 	main.cpp,
 	MainWindow.h,
 	MainWindow.cpp,
