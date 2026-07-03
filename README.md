@@ -1,4 +1,6 @@
-<img src="https://github.com/SeppoPakonen/VerseDesk/blob/main/docs/logo.png?raw=true" alt="VerseDesk Logo" width="250">
+<div align="center">
+  <img src="https://github.com/SeppoPakonen/VerseDesk/blob/main/docs/logo.png?raw=true" alt="VerseDesk Logo" width="250">
+</div>
 
 # VerseDesk
 
